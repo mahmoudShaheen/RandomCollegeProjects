@@ -4,7 +4,7 @@ Various simple projects for college.
 
 # Projects:
 
-[Algorithms Comparison](./Algorithms Comparison):
+[Algorithms Comparison](./AlgorithmsComparison):
 * Insertion and Merge sort algorithms comparison using python.
 
 [Banker Algorithm](./BankerAlgorithm):
