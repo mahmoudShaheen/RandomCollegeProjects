@@ -16,16 +16,16 @@ Various simple projects for college.
 [Calculator](./Calculator):
 * Simple CPP CMD, C# GUI calculators.
 
-[CPP Program Example](./CPP Program Example):
+[CPP Program Example](./CPPProgramExample):
 * Various CPP program Examples.
 
-[CPU Simulation](./CPU Simulation):
+[CPU Simulation](./CPUSimulation):
 * Factorial calculation in Assembly Language.
 
 [GCD](./GCD):
 * CPP greatest common divisor.
 
-[Genetic Algorithm PID Optimization](./Genetic Algorithm PID Optimization):
+[Genetic Algorithm PID Optimization](./GeneticAlgorithmPIDOptimization):
 * PID parameters optimization using Genetic algorithm Matlab.
 
 [Hash Table](./HashTable):
@@ -37,31 +37,31 @@ Various simple projects for college.
 [Modulation](./Modulation):
 * Modulation using Matlab "single side band - upper side band".
 
-[Network OSPF](./Network OSPF):
+[Network OSPF](./NetworkOSPF):
 * Simple OSPF network using packet tracer.
 
-[Network RIP](./Network RIP):
+[Network RIP](./NetworkRIP):
 * Simple RIP network using packet tracer.
 
-[Network VLAN](./Network VLAN):
+[Network VLAN](./NetworkVLAN):
 * Simple VLAN using packet tracer.
 
-[Parallel Processing](./Parallel Processing):
+[Parallel Processing](./ParallelProcessing):
 * Parallel Processing using GPU "Matlab" and OMP "CPP".
 
 [Prime](./Prime):
 * Test number whether prime or not, CPP.
 
-[python sqlite](./python sqlite):
+[python sqlite](./pythonsqlite):
 * Simple GUI python app connected to sqlite db making simple operations.
 
-[Robot Workspace](./Robot Workspace):
+[Robot Workspace](./RobotWorkspace):
 * Matlab GUI app to plot Robot manipulator workspace "2-DOF/3-DOF".
 
-[RPI Motion Detector](./RPI Motion Detector):
+[RPI Motion Detector](./RPIMotionDetector):
 * Raspberry app takes a picture using USB-CAM when motion detected by PIR sensor, also you can check pictures using PHP web page included.
 
-[RSA 3983](./RSA 3983):
+[RSA 3983](./RSA3983):
 * RSA 3983 Cryptography Algorithm implementation using CPP.
 
 [Threads And Concurrency](./ThreadsAndConcurrency):
