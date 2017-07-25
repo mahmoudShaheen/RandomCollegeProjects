@@ -1,0 +1,81 @@
+// lab
+
+#include <iostream>
+#include <time.h>
+#include <omp.h>
+using namespace std;
+
+char seqA[] = "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";
+char seqB[] = "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";
+int arr[3001][3001];
+
+int x;
+int max(int x, int y){
+	return x > y ? x : y;
+}
+int y, c, id, j, jd;
+int ix = 1;
+
+int n = strlen(seqA);
+int m = strlen(seqB);
+
+
+void zero(){
+	for (int i = 0; i < n; i++){
+		for (int j = 0; j < m; j++){
+			arr[i][j] = 0;
+		}
+	}
+}
+
+void main()
+{
+
+	zero();
+
+	clock_t tStart = clock();
+
+	for (ix = 1; ix < m + 1; ix++){
+	//#pragma omp barrier
+		id = 1;
+		if (ix > m)
+			y = 1 + (ix - m);
+		else
+			y = 1;
+#pragma omp parallel for schedule(dynamic,50) 
+		for (jd = ix; jd >= y; jd--){
+			if (seqA[id - 1] == seqB[jd - 1])
+				arr[id][jd] = arr[id - 1][jd - 1] + 1;
+			else
+				arr[id][jd] = max(arr[id - 1][jd], arr[id][jd - 1]);
+			id++;
+		}
+	}
+
+
+	for (j = 2; j < n + 1; j++){
+	//#pragma omp barrier
+		jd = m;
+#pragma omp parallel for schedule(dynamic,50) 
+		for (id = j; id < n + 1; id++){
+			if (seqA[id - 1] == seqB[jd - 1])
+				arr[id][jd] = arr[id - 1][jd - 1] + 1;
+			else
+				arr[id][jd] = max(arr[id - 1][jd], arr[id][jd - 1]);
+			jd--;
+		}
+	}
+	
+
+	/*
+	for (int i = 0; i < n+1; i++){
+	for (int j = 0; j < m+1; j++){
+	cout << " " << arr[i][j] << " ";
+	}
+	cout << endl;
+	}
+	*/
+
+	printf("Time taken: %.2fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
+	system("pause");
+}

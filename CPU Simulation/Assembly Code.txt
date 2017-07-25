@@ -1,0 +1,19 @@
+;This Program reads an integer and clculate its factorial
+
+	read		;read input
+	store ip	;store the input to memory
+	store sum	;store the input to the sum
+Start:	load ip		;get input from memory
+	jmpn Done	;to stop when input=0
+	load ip		;load the input to acc
+	dec		;decrement acc by 1
+	store ip	;store the new input to memory
+	load sum	;load sum to acc
+	multiply ip	;multiply sum and ip
+	store sum	;store sum to memory
+	jump Start	;branch to the start
+Done:	load sum	;load sum from memory to acc
+	write		;print sum on monitor
+	stop		;halt the program
+ip:	.data 2 0	;for storing the input and decrement
+sum:	.data 2 0	;for storing the sum after steps

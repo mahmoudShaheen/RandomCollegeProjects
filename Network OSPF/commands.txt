@@ -1,0 +1,9 @@
+enable
+configure terminal
+router ospf 1 //proccess id
+@@@@network 172.30.0.0 0.0.0.255 area 0 //complement subnet, area number
+@@@@network 172.30.10.0 0.0.0.255 area 10
+@@@@network 172.30.20.0 0.0.0.255 area 20
+exit
+Show ip route
+

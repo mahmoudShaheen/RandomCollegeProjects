@@ -1,0 +1,4 @@
+fswebcam lib
+apache httpd
+php 5.x
+python 2.7

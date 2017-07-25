@@ -1,0 +1,34 @@
+#ifndef FOS_INC_STDIO_H
+#define FOS_INC_STDIO_H
+
+#include <inc/stdarg.h>
+
+#ifndef NULL
+#define NULL	((void *) 0)
+#endif /* !NULL */
+
+// lib/stdio.c
+void	cputchar(int c);
+int	getchar(void);
+int	iscons(int fd);
+
+// lib/printfmt.c
+void	printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);
+void	vprintfmt(void (*putch)(int, void*), void *putdat, const char *fmt, va_list);
+
+// lib/printf.c
+int	cprintf(const char *fmt, ...);
+int	vcprintf(const char *fmt, va_list);
+
+// lib/sprintf.c
+int	snprintf(char *str, int size, const char *fmt, ...);
+int	vsnprintf(char *str, int size, const char *fmt, va_list);
+
+// lib/fprintf.c
+int	fprintf(int fd, const char *fmt, ...);
+int	vfprintf(int fd, const char *fmt, va_list);
+
+// lib/readline.c
+char*	readline(const char *prompt);
+
+#endif /* !FOS_INC_STDIO_H */

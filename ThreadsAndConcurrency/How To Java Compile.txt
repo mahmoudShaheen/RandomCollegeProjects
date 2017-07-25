@@ -1,0 +1,21 @@
+system properties,, advanced system settings,, system environmeent,,
+system variables,, Path,, Edit,, Add ; then JDK bin folder path,, and press ok 3 times
+
+shift right click to open cmd here
+
+javac Main.java to compile
+
+java Main to run
+
+or use . bat
+
+compile.bat
+"C:\Program Files\Java\jdk1.8.0_31\bin\javac" Main.java
+pause
+
+run.bat
+java Main
+pause
+
+add this line to the end of the main function to pause the screen
+new java.util.Scanner(System.in).nextLine();

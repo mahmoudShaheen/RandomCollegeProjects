@@ -1,0 +1,14 @@
+Variables you can edit :
+	
+	Genetic.m:
+		Number of iterations (Generations)  >> M
+		Population Size >> PopSize (Choose any even number)
+		Kp, Ki, Kd limits by changing their values in the following
+			Controller_Limits = [ 5, 3, 1];			%[Kp, Ki, Kd]
+			
+			
+	fitness.m
+		the process transfer function to be controlled by changing :
+			R1, C1, R2 and C2 values
+		
+	For changing the cross_over method you need to rewrite the code as it is not generalized .

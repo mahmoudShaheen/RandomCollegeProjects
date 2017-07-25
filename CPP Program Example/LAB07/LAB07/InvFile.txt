@@ -1,0 +1,7 @@
+
+ Item name      onhand    cost      Total cost
+ pen            15        20        300       
+ book           5         10        50        
+ penceil        30        2         60        
+ paper          20        5         100       
+ sesor          20        3         60        

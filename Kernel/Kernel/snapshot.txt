@@ -1,0 +1,25 @@
+          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+          !!                                                             !!
+          !!                   !! FCIS says HELLO !!                     !!
+          !!                                                             !!
+          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+Welcome to the FOS kernel command prompt!
+Type 'help' for a list of commands.
+FOS> help
+help - Display this list of commands
+kernel_info - Display information about the kernel
+add - Takes 2 integers n1, n2 and displays n1 + n2
+rep - Echo the given string for N times
+halt - Halts the kernel
+FOS> rep OS 5
+ OS
+ OS
+ OS
+ OS
+ OS
+FOS>
